@@ -7,11 +7,11 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("DynamicData.PLinq")]
-[assembly: AssemblyDescription("DynamicData for streaming collections of data")]
+[assembly: AssemblyDescription("DynamicData for reactive collections")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("DynamicData.PLinq")]
-[assembly: AssemblyCopyright("Copyright © Roland Pheasant 2011-2015")]
+[assembly: AssemblyCopyright("Copyright © Roland Pheasant 2011-2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -36,6 +36,6 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 
-[assembly: AssemblyVersion("4.0.0.0")]
-[assembly: AssemblyFileVersion("4.0.0.0")]
+[assembly: AssemblyVersion("5.0.0.0")]
+[assembly: AssemblyFileVersion("5.0.0.0")]
 [assembly: AssemblyInformationalVersion("4.0.0.0")]
