@@ -17,9 +17,9 @@
   </metadata>
   <files>
     <!--Net45 files including PLinq-->
-    <file src="..\DynamicData.Plinq\bin\Release\net45\DynamicData.Plinq.dll" target="lib\net45\DynamicData.Plinq.dll" />
-    <file src="..\DynamicData.Plinq\bin\Release\net45\DynamicData.Plinq.pdb" target="lib\net45\DynamicData.Plinq.pdb" />
-    <file src="..\DynamicData.Plinq\bin\Release\net45\DynamicData.Plinq.xml" target="lib\net45\DynamicData.Plinq.xml" />
+    <file src="..\DynamicData.Plinq\bin\Release\DynamicData.Plinq.dll" target="lib\net45\DynamicData.Plinq.dll" />
+    <file src="..\DynamicData.Plinq\bin\Release\DynamicData.Plinq.pdb" target="lib\net45\DynamicData.Plinq.pdb" />
+    <file src="..\DynamicData.Plinq\bin\Release\DynamicData.Plinq.xml" target="lib\net45\DynamicData.Plinq.xml" />
 
     <!--Source code -->
     <file src="..\DynamicData.Plinq\**\*.cs" target="src" />

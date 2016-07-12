@@ -2,7 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>DynamicData</id>
-    <version>$version$</version>
+    <version>5.0.0</version>
+
     <title>Dynamic Data</title>
     <authors>Roland Pheasant</authors>
     <copyright>Roland Pheasant</copyright>
@@ -11,23 +12,50 @@
     <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-      Bring the power of Rx to collections using Dynamic Data.
-      Dynamic Data is a comprehensive caching and data manipulation solution which introduces domain centric observable collections.
-      Linq extensions enable dynamic filtering, sorting, grouping, transforms, binding, pagination, data virtualisation, expiration, disposal management plus more.
+      Dynamic data is Rx for Collections. It provides an observable list and an observable cache together with at least 50 collection based operators.
+      The operators act on the observable collections and enable easy filtering, sorting, grouping, transforms, binding, pagination, virtualisation, expiration, disposal management plus more.
+      They are implemented as extensions and complicated combinations can be chained together with ease. 
+      The magic is that when the source observable collection is modified, the operators self-maintain. The result is very difficult data management can be reduced to a few lines of code.
     </description>
     <tags>DynamicData Dynamic Data Rx Reactive Observable Cache Binding ObservableCache ObservableList ObservableCollection Collection Linq</tags>
   </metadata>
+  
   <files>
 
     <!--Net45 files-->
-    <file src="bin\Release\portable-net45+winrt45+wp8+wpa81\DynamicData.dll" target="lib\net45\DynamicData.dll" />
-    <file src="bin\Release\portable-net45+winrt45+wp8+wpa81\DynamicData.pdb" target="lib\net45\DynamicData.pdb" />
-    <file src="bin\Release\portable-net45+winrt45+wp8+wpa81\DynamicData.xml" target="lib\net45\DynamicData.xml" />
+    <file src="bin\Release\DynamicData.dll" target="lib\net45\DynamicData.dll" />
+    <file src="bin\Release\DynamicData.pdb" target="lib\net45\DynamicData.pdb" />
+    <file src="bin\Release\DynamicData.xml" target="lib\net45\DynamicData.xml" />
 
-    <!--Portable files-->
-    <file src="bin\Release\portable-net45+winrt45+wp8+wpa81\DynamicData.dll" target="lib\portable-net45+winrt45+wp8+wpa81\DynamicData.dll" />
-    <file src="bin\Release\portable-net45+winrt45+wp8+wpa81\DynamicData.pdb" target="lib\portable-net45+winrt45+wp8+wpa81\DynamicData.pdb" />
-    <file src="bin\Release\portable-net45+winrt45+wp8+wpa81\DynamicData.xml" target="lib\portable-net45+winrt45+wp8+wpa81\DynamicData.xml" />
+    <!--Net46 files-->
+    <file src="bin\Release\DynamicData.dll" target="lib\net46\DynamicData.dll" />
+    <file src="bin\Release\DynamicData.pdb" target="lib\net46\DynamicData.pdb" />
+    <file src="bin\Release\DynamicData.xml" target="lib\net46\DynamicData.xml" />
+
+    <!--netstandard1.0 files-->
+    <file src="bin\Release\DynamicData.dll" target="lib\netstandard1.0\DynamicData.dll" />
+    <file src="bin\Release\DynamicData.pdb" target="lib\netstandard1.0\DynamicData.pdb" />
+    <file src="bin\Release\DynamicData.xml" target="lib\netstandard1.0\DynamicData.xml" />
+
+    <!--netstandard1.1 files-->
+    <file src="bin\Release\DynamicData.dll" target="lib\netstandard1.1\DynamicData.dll" />
+    <file src="bin\Release\DynamicData.pdb" target="lib\netstandard1.1\DynamicData.pdb" />
+    <file src="bin\Release\DynamicData.xml" target="lib\netstandard1.1\DynamicData.xml" />
+
+    <!--netstandard1.3 files-->
+    <file src="bin\Release\DynamicData.dll" target="lib\netstandard1.3\DynamicData.dll" />
+    <file src="bin\Release\DynamicData.pdb" target="lib\netstandard1.3\DynamicData.pdb" />
+    <file src="bin\Release\DynamicData.xml" target="lib\netstandard1.3\DynamicData.xml" />
+
+    <!--uuap10.0 files-->
+    <file src="bin\Release\DynamicData.dll" target="lib\uap10.0\DynamicData.dll" />
+    <file src="bin\Release\DynamicData.pdb" target="lib\uap10.0\DynamicData.pdb" />
+    <file src="bin\Release\DynamicData.xml" target="lib\uap10.0\DynamicData.xml" />
+
+    <!--wpa81 files-->
+    <file src="bin\Release\DynamicData.dll" target="lib\wpa81\DynamicData.dll" />
+    <file src="bin\Release\DynamicData.pdb" target="lib\wpa81\DynamicData.pdb" />
+    <file src="bin\Release\DynamicData.xml" target="lib\wpa81\DynamicData.xml" />
 
     <file src="..\DynamicData\**\*.cs" target="src" />
   </files>

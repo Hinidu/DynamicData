@@ -27,7 +27,7 @@
     <DefineConstants>TRACE;DEBUG;PORTABLE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\DynamicData.xml</DocumentationFile>
     <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -37,7 +37,7 @@
     <DefineConstants>TRACE;PORTABLE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\DynamicData.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Aggregation\AggregateItem.cs" />
