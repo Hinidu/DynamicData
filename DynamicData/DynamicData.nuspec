@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>DynamicData</id>
-    <version>5.0.0</version>
+    <version>5.0.0-alpha</version>
 
     <title>Dynamic Data</title>
     <authors>Roland Pheasant</authors>
@@ -13,7 +13,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       Dynamic data is Rx for Collections. It provides an observable list and an observable cache together with at least 50 collection based operators.
-      The operators act on the observable collections and enable easy filtering, sorting, grouping, transforms, binding, pagination, virtualisation, expiration, disposal management plus more.
+      The operators act on the observable collections and enable filtering, sorting, grouping, transforms, binding, pagination, virtualisation, expiration, disposal management plus more.
       They are implemented as extensions and complicated combinations can be chained together with ease. 
       The magic is that when the source observable collection is modified, the operators self-maintain. The result is very difficult data management can be reduced to a few lines of code.
     </description>
