@@ -2,8 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>DynamicData</id>
-    <version>5.0.0-alpha</version>
-
+    <version>$version$</version>
     <title>Dynamic Data</title>
     <authors>Roland Pheasant</authors>
     <copyright>Roland Pheasant</copyright>
@@ -12,12 +11,15 @@
     <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-      Dynamic data is Rx for Collections. It provides an observable list and an observable cache together with at least 50 collection based operators.
-      The operators act on the observable collections and enable filtering, sorting, grouping, transforms, binding, pagination, virtualisation, expiration, disposal management plus more.
-      They are implemented as extensions and complicated combinations can be chained together with ease. 
-      The magic is that when the source observable collection is modified, the operators self-maintain. The result is very difficult data management can be reduced to a few lines of code.
+      Dynamic data is Rx for Collections. It provides an observable list and an observable cache both having at least 50 collection specific operators. These operators enable filtering, sorting, grouping, transforms, binding, pagination, virtualisation, expiration, disposal management plus more.
+      They are implemented as extensions which allow simple semantics to define powerful and declarative data transformations. The magic is that when the source observable collection is modified, the operators self-maintain. The result is very difficult data management can be reduced to a few lines of code.
     </description>
     <tags>DynamicData Dynamic Data Rx Reactive Observable Cache Binding ObservableCache ObservableList ObservableCollection Collection Linq</tags>
+      <dependencies>
+        <dependency id="System.Reactive.Linq" version="3.0.0" />
+        <dependency id="System.Reactive.Core" version="3.0.0" />
+        <dependency id="System.Reactive.Intrefaces" version="3.0.0" />
+      </dependencies>
   </metadata>
   
   <files>
